@@ -1,0 +1,13 @@
+.expense-item {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(89, 86, 86);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}

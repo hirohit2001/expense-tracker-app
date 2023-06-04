@@ -1,0 +1,110 @@
+#expense-form {
+  height: 35%;
+  width: 50%;
+  background-color: #595959;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin: 10px;
+  position: relative;
+  transition: top ;
+}
+
+.load-form {
+  top: 50%;
+}
+
+#backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#expense-form label {
+  width: 10%;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
+
+#expense-form input {
+  width: 90%;
+  font-size: medium;
+  background-color: black;
+}
+
+#expense-form input[type="date"]::-webkit-calendar-picker-indicator,
+#expense-form input[type="number"]::-webkit-inner-spin-button,
+#expense-form input[type="number"]::-webkit-outer-spin-button {
+  filter: invert(1);
+}
+
+#expense-form input,
+#expense-form input:active,
+#expense-form button {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+}
+
+#expense-form .form-control {
+  width: 75%;
+  display: flex;
+  color: whitesmoke;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+#expense-form button {
+  width: 40%;
+  cursor: pointer;
+}
+
+#cancel-btn {
+  background-color: red;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#submit-btn {
+  background-color: green;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+#title {
+  color: white;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  #expense-form,
+  #form-container {
+    width: 100%;
+  }
+
+  #expense-form label {
+    width: 20%;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #expense-form input {
+    width: 80%;
+    font-size: small;
+    background-color: black;
+  }
+}

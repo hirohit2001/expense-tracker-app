@@ -1,0 +1,22 @@
+#filter-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+}
+
+#filter-header {
+  color: white;
+  font-weight: bold;
+}
+
+#selector select,
+#selector select:active {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: small;
+  font-weight: bold;
+  cursor: pointer;
+}

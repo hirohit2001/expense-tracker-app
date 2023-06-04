@@ -1,0 +1,42 @@
+.expense-date {
+  width: 10%;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.item-description {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  font-size: large;
+}
+
+.item-price {
+  background-color: blueviolet;
+  padding: 5px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.expense-month {
+  font-size: medium;
+}
+
+.expense-year {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .expense-date {
+    width: 15%;
+  }
+
+  .item-description {
+    width: 85%;
+  }
+}
