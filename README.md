@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Expense Tracker App
+A ReactJS app that tracks your monthly expenses and includes a visual bar graph to compare your expenses.
+
+![expense-tracker-app](https://github.com/hirohit2001/expense-tracker-app/assets/51418213/148b4187-3fe0-474b-90e0-f299018553a2)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
