@@ -1,9 +1,7 @@
 # Expense Tracker App
 A ReactJS app that tracks your monthly expenses and includes a visual bar graph to compare your expenses.
 
-![expense-tracker-app](https://github.com/hirohit2001/expense-tracker-app/assets/51418213/148b4187-3fe0-474b-90e0-f299018553a2)
-
-![Screenshot 2023-06-05 225839](https://github.com/hirohit2001/expense-tracker-app/assets/51418213/91d26d1b-3b33-4931-9a09-f60165f40646)
+![expense-tracker-app](https://github.com/hirohit2001/expense-tracker-app/assets/51418213/79558b80-c6cc-41ef-afdf-bb4f7b522134)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
